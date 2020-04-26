@@ -3,7 +3,7 @@ let param = params.get("city");
 
 let city = "weather?q=" + param;
 let key = "&appid=6f72e3f55e118c054588083f9805cd08";
-let url = "http://api.openweathermap.org/data/2.5/" + city + key;
+let url = "https://api.openweathermap.org/data/2.5/" + city + key;
 
 if (param != null) {
 
