@@ -121,6 +121,10 @@ a {
         align-items: flex-start;
         padding: 2em 0;
     }
+    .content {
+        height: 100%;
+        justify-content: space-between;
+    }
     .raport {
         flex-direction: column;
         margin: 1em 0;
@@ -132,6 +136,6 @@ a {
         margin: 0;
     }
     .footer {
-        bottom: 2em;
+        position: static;
     }
 }
