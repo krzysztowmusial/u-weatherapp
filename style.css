@@ -120,10 +120,10 @@ a {
 @media (max-width: 400px) {
     body {
         align-items: flex-start;
-        padding: 0 0 2em 0;
     }
     .content {
         min-height: 100vh;
+        padding: 2em 0;
         justify-content: space-between;
     }
     .raport {
@@ -134,10 +134,10 @@ a {
         margin: 1em 0;
     }
     #success, #failure {
-        margin: 2em 0 0 0;
+        margin: 0;
     }
     .footer {
-        margin: 2em 0;
+        margin-top: 2em;
         position: static;
     }
 }
