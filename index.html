@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+
+    <div class="content">
+        
+        <div id="success">
+            <h1 id="name"></h1>
+
+            <div class="raport">
+                <div class="raport--item">
+                    <h2 id="temp"></h2>
+                    <h3>Temperature</h3>
+                </div>
+                <div class="raport--item">
+                    <h2 id="humidity"></h2>
+                    <h3>Humidity</h3>
+                </div>
+                <div class="raport--item">
+                    <h2 id="pressure"></h2>
+                    <h3>Pressure</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="failure">
+            <h1>City not found!</h1>
+        </div>
+
+        <form action="/" method="GET">
+            <input type="text" id="city" name="city" required placeholder="City">
+            <input type="submit" value="Search">
+        </form>
+
+        <div class="footer">
+            <a href="https://openweathermap.org/">OpenWeatherMap.org</a>
+            <a href="https://github.com/krzysztowmusial">Krzysztof Musiał</a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
